@@ -10,19 +10,19 @@ const HomeHeader = () => {
     return (
         <PageHeader
             imageSrc={'/logo.png'}
-            imageAlt={'Edu Chat Logo'}
+            imageAlt={'Polyglot AI'}
             heading={
                 <>
                     <Text
                         as='span'
                     >
-                        Welcome to Chat
+                        Welcome to Polyglot
                     </Text>
                     <Text
                         as='span'
                         color={'brand.500'}
                     >
-                        EDU
+                        AI
                     </Text>
                     {
                         user && user.name && (
